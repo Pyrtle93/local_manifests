@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote fetch="https://github.com/Pyrtle93/" name="Pyrtle93"  />
+ <remote name="APyrtle93" fetch="https://gitlab.com/" />
+
+  <!--Remove aosp google packages-->
+  	                        
+  <!-- Device tree-->
+  <project name="Pyrtle93/device_google_gs101" path="device/google/gs101" remote="github" revision="13" />
+  <project name="Pyrtle93/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" remote="github" revision="13" />    
+  <project name="Pyrtle93/device_google_gs201" path="device/google/gs201" remote="github" revision="df" />
+  <project name="Pyrtle93/device_google_gs201-sepolicy" path="device/google/gs201-sepolicy" remote="github" revision="13" />
+  <project name="Pyrtle93/device_google_pantah" path="device/google/pantah" remote="github" revision="13" />
+  <project name="Pyrtle93/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" remote="github" revision="13" />   
+
+  <!--Kirisakura Inline -->
+  <project name="Pyrtle93/pantah_kernel" path="device/google/pantah-kernel" remote="APyrtle93" revision="13" />     
+  <project name="Pyrtle93/Kirisakura_Pantah" path="kernel/google/pantah/cheetah" remote="github" revision="pantah" />
+
+  <!-- Vendor -->
+  <project name="Pyrtle93/vendor_pixel-framework" path="vendor/pixel-framework" remote="github" revision="qpr3" />
+  <project name="Pyrtle93/vendor_google_devices_cheetah" path="vendor/google_devices/cheetah" remote="APyrtle93" revision="13" />
+  <project name="Pyrtle93/vendor_google_devices_panther" path="vendor/google_devices/panther" remote="APyrtle93" revision="13" />
+  <project name="Pyrtle93/pixelparts" path="vendor/google/pixelparts" remote="APyrtle93" revision="13" />
+</manifest>
